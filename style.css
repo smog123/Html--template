@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* 🔥 modern gradient background */
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.login-box {
+    width: 320px;
+    padding: 25px;
+
+    /* glass effect */
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+input {
+    padding: 10px;
+    margin: 6px 0 15px 0;
+
+    border: none;
+    border-radius: 8px;
+
+    outline: none;
+}
+a {
+    color: #fff;
+    text-decoration: underline;
+}
